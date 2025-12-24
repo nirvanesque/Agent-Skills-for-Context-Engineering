@@ -8,8 +8,6 @@ Context engineering is the discipline of managing the language model's context w
 
 The fundamental challenge is that context windows are constrained not by raw token capacity but by attention mechanics. As context length increases, models exhibit predictable degradation patterns: the "lost-in-the-middle" phenomenon, U-shaped attention curves, and attention scarcity. Effective context engineering means finding the smallest possible set of high-signal tokens that maximize the likelihood of desired outcomes.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering&type=date&legend=top-left)](https://www.star-history.com/#muratcankoylan/Agent-Skills-for-Context-Engineering&type=date&legend=top-left)
-
 ## Skills Overview
 
 ### Foundational Skills
@@ -102,6 +100,15 @@ npm install
 cp env.example .env  # Add OPENAI_API_KEY
 npm test  # Run 19 passing tests
 ```
+## Star History
+
+<a href="https://www.star-history.com/#muratcankoylan/Agent-Skills-for-Context-Engineering&davila7/claude-code-templates&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering,davila7/claude-code-templates&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering,davila7/claude-code-templates&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering,davila7/claude-code-templates&type=timeline&legend=top-left" />
+ </picture>
+</a>
 
 ## Structure
 
